@@ -1,0 +1,605 @@
+
+
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+ 
+
+
+      <title>Co-op: AI-Based Wildfire Detection System Design - </title>
+
+  <meta name="description" content="Hubei State Grid Wuhan University of Technology Power"><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Qilin Xu",
+    
+    "url": "https:\/\/KyliinX.github.io\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/KyliinX.github.io\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/KyliinX.github.io\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/KyliinX.github.io\/post\/2024-05-01-coop3\/",
+          "name": "Co op ai based wildfire detection system design"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : ""
+  },
+  "headline": "Co-op: AI-Based Wildfire Detection System Design",
+  "description" : "During my internship from May 2024 to August 2024 at Hubei State Grid Wuhan University of Technology Power Consulting Division, I had the opportunity to engage with cutting-edge technologies in digital grid solutions, intelligent energy, and extensive data operations. The company specializes in integrating digital technology into power grid solutions, providing intelligent energy, system integration, and comprehensive data analytics expertise. This internship allowed me to work on several impactful projects, significantly enhancing my technical and professional skills.\n",
+  "inLanguage" : "en",
+  "wordCount":  677 ,
+  "datePublished" : "2024-05-01T00:00:00\u002b00:00",
+  "dateModified" : "2024-05-01T00:00:00\u002b00:00",
+  "image" : "https:\/\/KyliinX.github.io\/img\/xuql_astra.jpg",
+  "keywords" : [ "Co-op, Machine Learning, Computer Vision, Wildfire Detection" ],
+  "mainEntityOfPage" : "https:\/\/KyliinX.github.io\/post\/2024-05-01-coop3\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/KyliinX.github.io\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/KyliinX.github.io\/img\/xuql_astra.jpg",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+
+<meta property="og:title" content="Co-op: AI-Based Wildfire Detection System Design" />
+<meta property="og:description" content="Hubei State Grid Wuhan University of Technology Power">
+<meta property="og:image" content="https://KyliinX.github.io/img/xuql_astra.jpg" />
+<meta property="og:url" content="https://KyliinX.github.io/post/2024-05-01-coop3/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Qilin Xu" />
+
+  <meta name="twitter:title" content="Co-op: AI-Based Wildfire Detection System Design" />
+  <meta name="twitter:description" content="Hubei State Grid Wuhan University of Technology Power">
+  <meta name="twitter:image" content="https://KyliinX.github.io/img/xuql_astra.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href='https://KyliinX.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.139.2">
+  <link rel="alternate" href="https://KyliinX.github.io/index.xml" type="application/rss+xml" title="Qilin Xu"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" integrity="sha384-h/hnnw1Bi4nbpD6kE7nYfCXzovi622sY5WBxww8ARKwpdLj5kUWjRuyiXaD1U2JT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><link rel="stylesheet" href="https://KyliinX.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://KyliinX.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://KyliinX.github.io/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://KyliinX.github.io/">Qilin Xu</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Home" href="/">Home</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Publications</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/2024-01-16-cbam-asff-yolov4">CBAM-ASFF-YOLOv4</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Co-op</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/2023-01-01-coop1">Co-op 1</a>
+                
+                  <a href="/post/2023-08-31-coop2">Co-op 2</a>
+                
+                  <a href="/post/2024-05-01-coop3">Co-op 3</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Projects</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/2022-05-01-srtp">SRTP 2022</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Activities</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/2021-10-01-smart-car">Intelligent Vehicles</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Qilin Xu" href="https://KyliinX.github.io/">
+            <img class="avatar-img" src="https://KyliinX.github.io/img/xuql_astra.jpg" alt="Qilin Xu" />
+           
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Co-op: AI-Based Wildfire Detection System Design</h1>
+              
+              
+              
+                
+                  <h2 class="post-subheading">Hubei State Grid Wuhan University of Technology Power</h2>
+                
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on May 1, 2024
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;4&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;677&nbsp;words
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>During my internship from May 2024 to August 2024 at <a href="https://www.htzipr.com/index/enterpriseIndex-d8ba7741d5f14cc794b8b2ba56ccba56.html"><strong>Hubei State Grid Wuhan University of Technology Power</strong></a> Consulting Division, I had the opportunity to engage with cutting-edge technologies in digital grid solutions, intelligent energy, and extensive data operations. The company specializes in integrating digital technology into power grid solutions, providing intelligent energy, system integration, and comprehensive data analytics expertise. This internship allowed me to work on several impactful projects, significantly enhancing my technical and professional skills.</p>
+<h2 id="key-achievements">Key Achievements</h2>
+<ul>
+<li>
+<p><strong>AI-Based Wildfire Detection System:</strong></p>
+<ul>
+<li>One of the significant projects I worked on was the <strong>AI-based transmission line wildfire detection system</strong>. I was responsible for data processing and algorithm modeling. Using surveillance cameras and LabelImg, we collected and labeled video frames, incorporating meteorological data for enhanced analysis. I preprocessed the data by applying grayscale and normalization techniques, improving the input data&rsquo;s quality and consistency.</li>
+<li>I used <strong>MobileNetV2</strong> as a pre-trained model for the model construction, enhancing it with the <strong>SE Block</strong> attention mechanism to focus the model on fire regions. Additionally, I integrated a time-series <strong>LSTM module</strong> to help the model capture the dynamic features of fire development over time. Through multi-task learning, the model could detect both smoke and flames, achieving an <strong>87.3% accuracy</strong> rate in wildfire detection, significantly improving its practical applicability.</li>
+</ul>
+</li>
+<li>
+<p><strong>Tool Development for Efficiency:</strong></p>
+<ul>
+<li>Besides developing algorithms, I created several utility programs to improve team efficiency. For example, I used <strong>C++</strong> to develop batch file renaming tools, Excel file batch processing utilities, and automated data validation and correction tools. These tools drastically reduced the time spent on routine data tasks.validation and correction tools. These tools drastically reduced the time spent on routine data tasks.</li>
+<li>I also utilized <strong>Git</strong> to manage project files and code versions, ensuring smooth collaboration and keeping track of changes to ensure project consistency.</li>
+</ul>
+</li>
+<li>
+<p><strong>Collaboration and Reporting:</strong></p>
+<ul>
+<li>I also participated in client communication, helping to manage client expectations, gather feedback, and document requirements into reports for the engineering team. This experience gave me insights into handling ambiguous information and effectively communicating technical concepts with non-technical stakeholders.</li>
+</ul>
+</li>
+<li>
+<p><strong>Power Distribution System Design and Documentation:</strong></p>
+<ul>
+<li>I was responsible for creating and standardizing the power distribution system&rsquo;s topology diagram using <strong>Visio</strong>, ensuring the diagrams were transparent, standardized, and visually appealing. I also contributed to editing and improving product manuals, making sure the documentation adhered to the company&rsquo;s standards and accurately conveyed technical details.</li>
+</ul>
+</li>
+</ul>
+<h2 id="what-i-learned">What I Learned</h2>
+<ul>
+<li>
+<p><strong>Deep Learning and Computer Vision:</strong></p>
+<ul>
+<li>This internship deepened my understanding of <strong>computer vision</strong> and <strong>deep learning</strong>. I gained hands-on experience with advanced neural networks and algorithms, particularly in real-time video data processing and wildfire detection, a unique application of AI technology.</li>
+</ul>
+</li>
+<li>
+<p><strong>Programming and Tool Development:</strong></p>
+<ul>
+<li>I sharpened my programming skills in <strong>C++</strong> and <strong>Python</strong>, and became proficient in tools like <strong>Git</strong> and <strong>Excel</strong> for data handling. I also improved my ability to write and implement efficient code to automate tasks, which was crucial in improving team productivity.</li>
+</ul>
+</li>
+<li>
+<p><strong>Client Interaction and Communication:</strong></p>
+<ul>
+<li>This internship was an excellent opportunity to develop my <strong>communication skills</strong>. I learned to understand client needs, handle feedback, and translate these insights into actionable reports. Effective communication became a cornerstone of my work, which will be invaluable as I progress in academic and professional settings.</li>
+</ul>
+</li>
+<li>
+<p><strong>Visualization and Reporting:</strong></p>
+<ul>
+<li>I also learned to work with <strong>Visio</strong> for drawing standardized diagrams and gained experience in editing and polishing documentation, which helped refine my attention to detail and ability to clearly communicate technical information.</li>
+</ul>
+</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>My time at <strong>Hubei State Grid Wuhan University of Technology</strong> was a pivotal experience, enhancing my technical and soft skills. The internship not only strengthened my understanding of AI-based solutions in the energy sector but also allowed me to develop tools and systems that significantly improve operational efficiency.</p>
+<p>I plan to continue expanding my knowledge in <strong>data analysis</strong> and <strong>artificial intelligence</strong>. My ultimate goal is to apply these skills in <strong>deep learning</strong> and contribute to cutting-edge research, particularly in wildfire detection systems. As I look forward to my next internship, I aim to further enhance my technical expertise and prepare for a future in AI-driven research.</p>
+
+
+        
+          <div class="blog-tags">
+            
+              
+              <a href="https://KyliinX.github.io/tags/co-op/">Co-op</a>&nbsp;
+            
+              
+              <a href="https://KyliinX.github.io/tags/machine-learning/">Machine Learning</a>&nbsp;
+            
+              
+              <a href="https://KyliinX.github.io/tags/computer-vision/">Computer Vision</a>&nbsp;
+            
+              
+              <a href="https://KyliinX.github.io/tags/wildfire-detection/">Wildfire Detection</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fKyliinX.github.io%2fpost%2f2024-05-01-coop3%2f&amp;text=Co-op%3a%20AI-Based%20Wildfire%20Detection%20System%20Design&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fKyliinX.github.io%2fpost%2f2024-05-01-coop3%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fKyliinX.github.io%2fpost%2f2024-05-01-coop3%2f&amp;title=Co-op%3a%20AI-Based%20Wildfire%20Detection%20System%20Design" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fKyliinX.github.io%2fpost%2f2024-05-01-coop3%2f&amp;title=Co-op%3a%20AI-Based%20Wildfire%20Detection%20System%20Design" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fKyliinX.github.io%2fpost%2f2024-05-01-coop3%2f&amp;title=Co-op%3a%20AI-Based%20Wildfire%20Detection%20System%20Design" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fKyliinX.github.io%2fpost%2f2024-05-01-coop3%2f&amp;description=Co-op%3a%20AI-Based%20Wildfire%20Detection%20System%20Design" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+            
+          
+
+          
+                  <h4 class="see-also">See also</h4>
+                  <ul>
+                
+                
+                    <li><a href="/post/2024-01-16-cbam-asff-yolov4/">Publication: Intelligent Power Grid Infrastructure Quality Detection Based on CBAM-ASFF-YOLOv4</a></li>
+                
+                    <li><a href="/post/2023-08-31-coop2/">Co-op: Power System Analysis Intern</a></li>
+                
+                    <li><a href="/post/2023-01-01-coop1/">Co-op: Energy consumption mode mining and exception identification</a></li>
+                
+                    <li><a href="/post/2022-05-01-srtp/">Project: Identifying and Predicting Meteorologically Sensitive Loads</a></li>
+                
+              </ul>
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://KyliinX.github.io/post/2024-01-16-cbam-asff-yolov4/" data-toggle="tooltip" data-placement="top" title="Publication: Intelligent Power Grid Infrastructure Quality Detection Based on CBAM-ASFF-YOLOv4">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+      
+      
+      
+      
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      <footer>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+		
+		  <a href="mailto:xuql@mail.uc.edu" title="Email me">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://github.com/KyliinX" title="GitHub">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://www.linkedin.com/in/qilin-kylin-xu-a3117a2a6/" title="LinkedIn">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://www.kaggle.com/kyliiiinxu" title="kaggle">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-kaggle fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2024
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://KyliinX.github.io/">Qilin Xu</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.139.2</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha384-w5y/xIeYixWvfM+A1cEbmHPURnvyqmVg5eVENruEdDjcyRLUSNej7512JQGspFUr" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<script src="https://KyliinX.github.io/js/main.js"></script>
+<script src="https://KyliinX.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://KyliinX.github.io/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

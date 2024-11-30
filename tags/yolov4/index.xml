@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YOLOv4 on Qilin Xu</title>
+    <link>https://KyliinX.github.io/tags/yolov4/</link>
+    <description>Recent content in YOLOv4 on Qilin Xu</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>xuql@mail.uc.edu</managingEditor>
+    <webMaster>xuql@mail.uc.edu</webMaster>
+    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://KyliinX.github.io/tags/yolov4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publication: Intelligent Power Grid Infrastructure Quality Detection Based on CBAM-ASFF-YOLOv4</title>
+      <link>https://KyliinX.github.io/post/2024-01-16-cbam-asff-yolov4/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2024-01-16-cbam-asff-yolov4/</guid>
+      <description>&lt;p&gt;In modern power grid infrastructure projects, ensuring the quality of construction is critical to maintaining safety and operational stability. Traditional manual inspections face significant challenges due to weather conditions, terrain, and the complexity of the environment. To address these challenges, intelligent detection methods utilizing drones and AI-based algorithms are gaining traction. This article presents a novel approach for grid infrastructure quality detection using &lt;strong&gt;CBAM-ASFF-YOLOv4&lt;/strong&gt;, which integrates &lt;strong&gt;Adaptive Spatial Feature Fusion (ASFF)&lt;/strong&gt; and &lt;strong&gt;Convolutional Block Attention Module (CBAM)&lt;/strong&gt; with YOLOv4 to improve detection accuracy and speed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

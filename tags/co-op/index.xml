@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Co-Op on Qilin Xu</title>
+    <link>https://KyliinX.github.io/tags/co-op/</link>
+    <description>Recent content in Co-Op on Qilin Xu</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>xuql@mail.uc.edu</managingEditor>
+    <webMaster>xuql@mail.uc.edu</webMaster>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://KyliinX.github.io/tags/co-op/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Co-op: AI-Based Wildfire Detection System Design</title>
+      <link>https://KyliinX.github.io/post/2024-05-01-coop3/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2024-05-01-coop3/</guid>
+      <description>&lt;p&gt;During my internship from May 2024 to August 2024 at &lt;a href=&#34;https://www.htzipr.com/index/enterpriseIndex-d8ba7741d5f14cc794b8b2ba56ccba56.html&#34;&gt;&lt;strong&gt;Hubei State Grid Wuhan University of Technology Power&lt;/strong&gt;&lt;/a&gt; Consulting Division, I had the opportunity to engage with cutting-edge technologies in digital grid solutions, intelligent energy, and extensive data operations. The company specializes in integrating digital technology into power grid solutions, providing intelligent energy, system integration, and comprehensive data analytics expertise. This internship allowed me to work on several impactful projects, significantly enhancing my technical and professional skills.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Co-op: Power System Analysis Intern</title>
+      <link>https://KyliinX.github.io/post/2023-08-31-coop2/</link>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2023-08-31-coop2/</guid>
+      <description>&lt;p&gt;During my internship at the &lt;a href=&#34;https://www.tsinghua-eiri.org/&#34;&gt;&lt;strong&gt;Tsinghua Sichuan Energy Internet Research Institute&lt;/strong&gt;&lt;/a&gt; from August to December 2023, I had the opportunity to contribute to a highly technical project focused on power system analysis, specifically examining the impact of large-scale renewable energy integration on system inertia and frequency. This experience greatly enhanced my algorithm development, simulation, and technical communication skills. It provided a deeper understanding of the intersection between AI and energy systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Co-op: Energy consumption mode mining and exception identification</title>
+      <link>https://KyliinX.github.io/post/2023-01-01-coop1/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2023-01-01-coop1/</guid>
+      <description>&lt;p&gt;During my first co-op at &lt;strong&gt;Chongqing University Electrical Engineering Lab&lt;/strong&gt; from Janurary 2023 to April 2023, I had the opportunity to work on an exciting project involving energy consumption mode mining and exception identification of power users. My advisor is Professor &lt;a href=&#34;https://cee.cqu.edu.cn/szdw/jslb/y__j.htm&#34;&gt;Juan Yu&lt;/a&gt;. This experience gave me invaluable skills and insights that shaped my approach to machine learning and research. Here&amp;rsquo;s a detailed look at what I learned and accomplished during this co-op:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

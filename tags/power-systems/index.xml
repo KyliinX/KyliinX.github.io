@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Power Systems on Qilin Xu</title>
+    <link>https://KyliinX.github.io/tags/power-systems/</link>
+    <description>Recent content in Power Systems on Qilin Xu</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>xuql@mail.uc.edu</managingEditor>
+    <webMaster>xuql@mail.uc.edu</webMaster>
+    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://KyliinX.github.io/tags/power-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publication: Intelligent Power Grid Infrastructure Quality Detection Based on CBAM-ASFF-YOLOv4</title>
+      <link>https://KyliinX.github.io/post/2024-01-16-cbam-asff-yolov4/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2024-01-16-cbam-asff-yolov4/</guid>
+      <description>&lt;p&gt;In modern power grid infrastructure projects, ensuring the quality of construction is critical to maintaining safety and operational stability. Traditional manual inspections face significant challenges due to weather conditions, terrain, and the complexity of the environment. To address these challenges, intelligent detection methods utilizing drones and AI-based algorithms are gaining traction. This article presents a novel approach for grid infrastructure quality detection using &lt;strong&gt;CBAM-ASFF-YOLOv4&lt;/strong&gt;, which integrates &lt;strong&gt;Adaptive Spatial Feature Fusion (ASFF)&lt;/strong&gt; and &lt;strong&gt;Convolutional Block Attention Module (CBAM)&lt;/strong&gt; with YOLOv4 to improve detection accuracy and speed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Co-op: Power System Analysis Intern</title>
+      <link>https://KyliinX.github.io/post/2023-08-31-coop2/</link>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2023-08-31-coop2/</guid>
+      <description>&lt;p&gt;During my internship at the &lt;a href=&#34;https://www.tsinghua-eiri.org/&#34;&gt;&lt;strong&gt;Tsinghua Sichuan Energy Internet Research Institute&lt;/strong&gt;&lt;/a&gt; from August to December 2023, I had the opportunity to contribute to a highly technical project focused on power system analysis, specifically examining the impact of large-scale renewable energy integration on system inertia and frequency. This experience greatly enhanced my algorithm development, simulation, and technical communication skills. It provided a deeper understanding of the intersection between AI and energy systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Co-op: Energy consumption mode mining and exception identification</title>
+      <link>https://KyliinX.github.io/post/2023-01-01-coop1/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2023-01-01-coop1/</guid>
+      <description>&lt;p&gt;During my first co-op at &lt;strong&gt;Chongqing University Electrical Engineering Lab&lt;/strong&gt; from Janurary 2023 to April 2023, I had the opportunity to work on an exciting project involving energy consumption mode mining and exception identification of power users. My advisor is Professor &lt;a href=&#34;https://cee.cqu.edu.cn/szdw/jslb/y__j.htm&#34;&gt;Juan Yu&lt;/a&gt;. This experience gave me invaluable skills and insights that shaped my approach to machine learning and research. Here&amp;rsquo;s a detailed look at what I learned and accomplished during this co-op:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project: Identifying and Predicting Meteorologically Sensitive Loads</title>
+      <link>https://KyliinX.github.io/post/2022-05-01-srtp/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2022-05-01-srtp/</guid>
+      <description>&lt;p&gt;From March 2021 to November 2023, I had the privilege of being a member of the Electrical Engineering Lab at Chongqing University, where I worked on a research project advised by Professor &lt;a href=&#34;http://www.cs.cqu.edu.cn/info/1322/4181.htm&#34;&gt;Duo Liu&lt;/a&gt; aimed at identifying and predicting meteorologically sensitive loads in power supply station areas. This project involved the development of advanced machine learning models to analyze municipal grid power load data and forecast both long- and short-term power load curves. The experience significantly deepened my understanding of power systems. It reinforced my skills in applying machine learning to real-world energy problems.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,608 @@
+
+
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+ 
+
+
+      <title>Co-op: Energy consumption mode mining and exception identification - </title>
+
+  <meta name="description" content="Electrical Engineering Lab, Chongqing University"><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Qilin Xu",
+    
+    "url": "https:\/\/KyliinX.github.io\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/KyliinX.github.io\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/KyliinX.github.io\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/KyliinX.github.io\/post\/2023-01-01-coop1\/",
+          "name": "Co op energy consumption mode mining and exception identification"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : ""
+  },
+  "headline": "Co-op: Energy consumption mode mining and exception identification",
+  "description" : "During my first co-op at Chongqing University Electrical Engineering Lab from Janurary 2023 to April 2023, I had the opportunity to work on an exciting project involving energy consumption mode mining and exception identification of power users. My advisor is Professor Juan Yu. This experience gave me invaluable skills and insights that shaped my approach to machine learning and research. Here\u0026rsquo;s a detailed look at what I learned and accomplished during this co-op:\n",
+  "inLanguage" : "en",
+  "wordCount":  495 ,
+  "datePublished" : "2023-01-01T00:00:00\u002b00:00",
+  "dateModified" : "2023-01-01T00:00:00\u002b00:00",
+  "image" : "https:\/\/KyliinX.github.io\/img\/xuql_astra.jpg",
+  "keywords" : [ "Co-op, Machine Learning, Pattern Recognition, Power Systems, Leadership" ],
+  "mainEntityOfPage" : "https:\/\/KyliinX.github.io\/post\/2023-01-01-coop1\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/KyliinX.github.io\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/KyliinX.github.io\/img\/xuql_astra.jpg",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+
+<meta property="og:title" content="Co-op: Energy consumption mode mining and exception identification" />
+<meta property="og:description" content="Electrical Engineering Lab, Chongqing University">
+<meta property="og:image" content="https://KyliinX.github.io/img/xuql_astra.jpg" />
+<meta property="og:url" content="https://KyliinX.github.io/post/2023-01-01-coop1/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Qilin Xu" />
+
+  <meta name="twitter:title" content="Co-op: Energy consumption mode mining and exception identification" />
+  <meta name="twitter:description" content="Electrical Engineering Lab, Chongqing University">
+  <meta name="twitter:image" content="https://KyliinX.github.io/img/xuql_astra.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href='https://KyliinX.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.139.2">
+  <link rel="alternate" href="https://KyliinX.github.io/index.xml" type="application/rss+xml" title="Qilin Xu"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" integrity="sha384-h/hnnw1Bi4nbpD6kE7nYfCXzovi622sY5WBxww8ARKwpdLj5kUWjRuyiXaD1U2JT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><link rel="stylesheet" href="https://KyliinX.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://KyliinX.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://KyliinX.github.io/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://KyliinX.github.io/">Qilin Xu</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Home" href="/">Home</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Publications</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/2024-01-16-cbam-asff-yolov4">CBAM-ASFF-YOLOv4</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Co-op</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/2023-01-01-coop1">Co-op 1</a>
+                
+                  <a href="/post/2023-08-31-coop2">Co-op 2</a>
+                
+                  <a href="/post/2024-05-01-coop3">Co-op 3</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Projects</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/2022-05-01-srtp">SRTP 2022</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Activities</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/2021-10-01-smart-car">Intelligent Vehicles</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Qilin Xu" href="https://KyliinX.github.io/">
+            <img class="avatar-img" src="https://KyliinX.github.io/img/xuql_astra.jpg" alt="Qilin Xu" />
+           
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Co-op: Energy consumption mode mining and exception identification</h1>
+              
+              
+              
+                
+                  <h2 class="post-subheading">Electrical Engineering Lab, Chongqing University</h2>
+                
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on January 1, 2023
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;3&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;495&nbsp;words
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>During my first co-op at <strong>Chongqing University Electrical Engineering Lab</strong> from Janurary 2023 to April 2023, I had the opportunity to work on an exciting project involving energy consumption mode mining and exception identification of power users. My advisor is Professor <a href="https://cee.cqu.edu.cn/szdw/jslb/y__j.htm">Juan Yu</a>. This experience gave me invaluable skills and insights that shaped my approach to machine learning and research. Here&rsquo;s a detailed look at what I learned and accomplished during this co-op:</p>
+<h3 id="key-achievements">Key Achievements</h3>
+<ul>
+<li>
+<p><strong>Algorithm Development:</strong></p>
+<ul>
+<li>I was crucial in constructing and optimizing the <strong>Self-Organizing Map (SOM)</strong>, a self-organizing neural network model. The goal was to mine energy consumption patterns from power users and identify abnormal energy consumption behaviors. This allowed me to apply theoretical machine-learning concepts to real-world data, strengthening my understanding of neural networks.</li>
+</ul>
+</li>
+<li>
+<p><strong>Algorithm Implementation:</strong></p>
+<ul>
+<li>The implementation phase used <strong>PyTorch</strong> and <strong>MATLAB</strong>. I learned how to efficiently translate algorithmic concepts into working code, honing my skills in both deep learning frameworks and technical programming.</li>
+</ul>
+</li>
+<li>
+<p><strong>Research Basics:</strong></p>
+<ul>
+<li>I gained experience using <strong>R</strong> for data visualization, which allowed me to effectively communicate findings through graphs and charts. This skill was crucial for presenting results to team members and external stakeholders.</li>
+<li>I also contributed to writing technical reports and preparing presentations, where I reported our team&rsquo;s milestone progress to relevant grid companies.</li>
+</ul>
+</li>
+<li>
+<p><strong>Collaboration and Communication:</strong></p>
+<ul>
+<li>As the leader of our internship team, I organized weekly check-ins and progress reports to ensure we were on track. This leadership role helped me develop strong communication and project management skills.</li>
+<li>I also assisted team members with algorithm development and programming tasks, improving my teamwork and technical knowledge.</li>
+</ul>
+</li>
+</ul>
+<h3 id="what-i-learned">What I Learned</h3>
+<ul>
+<li>
+<p><strong>Practical Application of Machine Learning:</strong></p>
+<ul>
+<li>One of the biggest takeaways from this co-op was learning how to apply machine learning algorithms to solve real-world problems. Developing SOM models for energy consumption analysis improved my technical skills. It gave me a deeper understanding of the industry&rsquo;s challenges in deploying machine learning.</li>
+</ul>
+</li>
+<li>
+<p><strong>Problem-Solving and Innovation:</strong></p>
+<ul>
+<li>Throughout the project, I faced various challenges in optimizing the algorithm and interpreting large datasets. This experience sharpened my problem-solving skills and taught me to approach complex issues with innovative solutions.</li>
+</ul>
+</li>
+<li>
+<p><strong>Collaboration and Leadership:</strong></p>
+<ul>
+<li>Leading a team in a technical environment was an excellent opportunity to develop my leadership and collaborative skills. Managing a team of interns, providing support, and ensuring smooth communication between team members helped me more effectively coordinate projects.</li>
+</ul>
+</li>
+</ul>
+<h3 id="conclusion">Conclusion</h3>
+<p>The knowledge and experience I gained during this co-op were precious. I developed a strong foundation in machine learning algorithms, data analysis, and team leadership. It was an essential stepping stone in my journey toward pursuing advanced AI and multimodal machine learning research, and I&rsquo;m excited to apply these lessons to future challenges.</p>
+<p>This co-op also gave me insight into the practical side of AI research and development, teaching me how to balance innovation with real-world constraints. As I advance in my academic career, I am eager to continue learning and growing, building on the skills I developed during this experience.</p>
+
+
+        
+          <div class="blog-tags">
+            
+              
+              <a href="https://KyliinX.github.io/tags/co-op/">Co-op</a>&nbsp;
+            
+              
+              <a href="https://KyliinX.github.io/tags/machine-learning/">Machine Learning</a>&nbsp;
+            
+              
+              <a href="https://KyliinX.github.io/tags/pattern-recognition/">Pattern Recognition</a>&nbsp;
+            
+              
+              <a href="https://KyliinX.github.io/tags/power-systems/">Power Systems</a>&nbsp;
+            
+              
+              <a href="https://KyliinX.github.io/tags/leadership/">Leadership</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fKyliinX.github.io%2fpost%2f2023-01-01-coop1%2f&amp;text=Co-op%3a%20Energy%20consumption%20mode%20mining%20and%20exception%20identification&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fKyliinX.github.io%2fpost%2f2023-01-01-coop1%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fKyliinX.github.io%2fpost%2f2023-01-01-coop1%2f&amp;title=Co-op%3a%20Energy%20consumption%20mode%20mining%20and%20exception%20identification" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fKyliinX.github.io%2fpost%2f2023-01-01-coop1%2f&amp;title=Co-op%3a%20Energy%20consumption%20mode%20mining%20and%20exception%20identification" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fKyliinX.github.io%2fpost%2f2023-01-01-coop1%2f&amp;title=Co-op%3a%20Energy%20consumption%20mode%20mining%20and%20exception%20identification" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fKyliinX.github.io%2fpost%2f2023-01-01-coop1%2f&amp;description=Co-op%3a%20Energy%20consumption%20mode%20mining%20and%20exception%20identification" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+            
+          
+
+          
+                  <h4 class="see-also">See also</h4>
+                  <ul>
+                
+                
+                    <li><a href="/post/2024-05-01-coop3/">Co-op: AI-Based Wildfire Detection System Design</a></li>
+                
+                    <li><a href="/post/2024-01-16-cbam-asff-yolov4/">Publication: Intelligent Power Grid Infrastructure Quality Detection Based on CBAM-ASFF-YOLOv4</a></li>
+                
+                    <li><a href="/post/2023-08-31-coop2/">Co-op: Power System Analysis Intern</a></li>
+                
+                    <li><a href="/post/2022-05-01-srtp/">Project: Identifying and Predicting Meteorologically Sensitive Loads</a></li>
+                
+                    <li><a href="/post/2021-10-01-smart-car/">Activity: Intelligent Vehicles Design and Lecture Practices</a></li>
+                
+              </ul>
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://KyliinX.github.io/post/2022-05-01-srtp/" data-toggle="tooltip" data-placement="top" title="Project: Identifying and Predicting Meteorologically Sensitive Loads">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://KyliinX.github.io/post/2023-08-31-coop2/" data-toggle="tooltip" data-placement="top" title="Co-op: Power System Analysis Intern">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+      
+      
+      
+      
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      <footer>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+		
+		  <a href="mailto:xuql@mail.uc.edu" title="Email me">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://github.com/KyliinX" title="GitHub">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://www.linkedin.com/in/qilin-kylin-xu-a3117a2a6/" title="LinkedIn">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://www.kaggle.com/kyliiiinxu" title="kaggle">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-kaggle fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2024
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://KyliinX.github.io/">Qilin Xu</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.139.2</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha384-w5y/xIeYixWvfM+A1cEbmHPURnvyqmVg5eVENruEdDjcyRLUSNej7512JQGspFUr" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<script src="https://KyliinX.github.io/js/main.js"></script>
+<script src="https://KyliinX.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://KyliinX.github.io/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

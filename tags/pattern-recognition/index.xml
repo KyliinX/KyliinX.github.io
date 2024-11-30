@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pattern Recognition on Qilin Xu</title>
+    <link>https://KyliinX.github.io/tags/pattern-recognition/</link>
+    <description>Recent content in Pattern Recognition on Qilin Xu</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>xuql@mail.uc.edu</managingEditor>
+    <webMaster>xuql@mail.uc.edu</webMaster>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://KyliinX.github.io/tags/pattern-recognition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Co-op: Energy consumption mode mining and exception identification</title>
+      <link>https://KyliinX.github.io/post/2023-01-01-coop1/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2023-01-01-coop1/</guid>
+      <description>&lt;p&gt;During my first co-op at &lt;strong&gt;Chongqing University Electrical Engineering Lab&lt;/strong&gt; from Janurary 2023 to April 2023, I had the opportunity to work on an exciting project involving energy consumption mode mining and exception identification of power users. My advisor is Professor &lt;a href=&#34;https://cee.cqu.edu.cn/szdw/jslb/y__j.htm&#34;&gt;Juan Yu&lt;/a&gt;. This experience gave me invaluable skills and insights that shaped my approach to machine learning and research. Here&amp;rsquo;s a detailed look at what I learned and accomplished during this co-op:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on Qilin Xu</title>
+    <link>https://KyliinX.github.io/tags/project/</link>
+    <description>Recent content in Project on Qilin Xu</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>xuql@mail.uc.edu</managingEditor>
+    <webMaster>xuql@mail.uc.edu</webMaster>
+    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://KyliinX.github.io/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project: Identifying and Predicting Meteorologically Sensitive Loads</title>
+      <link>https://KyliinX.github.io/post/2022-05-01-srtp/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2022-05-01-srtp/</guid>
+      <description>&lt;p&gt;From March 2021 to November 2023, I had the privilege of being a member of the Electrical Engineering Lab at Chongqing University, where I worked on a research project advised by Professor &lt;a href=&#34;http://www.cs.cqu.edu.cn/info/1322/4181.htm&#34;&gt;Duo Liu&lt;/a&gt; aimed at identifying and predicting meteorologically sensitive loads in power supply station areas. This project involved the development of advanced machine learning models to analyze municipal grid power load data and forecast both long- and short-term power load curves. The experience significantly deepened my understanding of power systems. It reinforced my skills in applying machine learning to real-world energy problems.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

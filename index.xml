@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qilin Xu</title>
+    <link>https://KyliinX.github.io/</link>
+    <description>Recent content on Qilin Xu</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>xuql@mail.uc.edu</managingEditor>
+    <webMaster>xuql@mail.uc.edu</webMaster>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://KyliinX.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Co-op: AI-Based Wildfire Detection System Design</title>
+      <link>https://KyliinX.github.io/post/2024-05-01-coop3/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2024-05-01-coop3/</guid>
+      <description>&lt;p&gt;During my internship from May 2024 to August 2024 at &lt;a href=&#34;https://www.htzipr.com/index/enterpriseIndex-d8ba7741d5f14cc794b8b2ba56ccba56.html&#34;&gt;&lt;strong&gt;Hubei State Grid Wuhan University of Technology Power&lt;/strong&gt;&lt;/a&gt; Consulting Division, I had the opportunity to engage with cutting-edge technologies in digital grid solutions, intelligent energy, and extensive data operations. The company specializes in integrating digital technology into power grid solutions, providing intelligent energy, system integration, and comprehensive data analytics expertise. This internship allowed me to work on several impactful projects, significantly enhancing my technical and professional skills.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Publication: Intelligent Power Grid Infrastructure Quality Detection Based on CBAM-ASFF-YOLOv4</title>
+      <link>https://KyliinX.github.io/post/2024-01-16-cbam-asff-yolov4/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2024-01-16-cbam-asff-yolov4/</guid>
+      <description>&lt;p&gt;In modern power grid infrastructure projects, ensuring the quality of construction is critical to maintaining safety and operational stability. Traditional manual inspections face significant challenges due to weather conditions, terrain, and the complexity of the environment. To address these challenges, intelligent detection methods utilizing drones and AI-based algorithms are gaining traction. This article presents a novel approach for grid infrastructure quality detection using &lt;strong&gt;CBAM-ASFF-YOLOv4&lt;/strong&gt;, which integrates &lt;strong&gt;Adaptive Spatial Feature Fusion (ASFF)&lt;/strong&gt; and &lt;strong&gt;Convolutional Block Attention Module (CBAM)&lt;/strong&gt; with YOLOv4 to improve detection accuracy and speed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Co-op: Power System Analysis Intern</title>
+      <link>https://KyliinX.github.io/post/2023-08-31-coop2/</link>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2023-08-31-coop2/</guid>
+      <description>&lt;p&gt;During my internship at the &lt;a href=&#34;https://www.tsinghua-eiri.org/&#34;&gt;&lt;strong&gt;Tsinghua Sichuan Energy Internet Research Institute&lt;/strong&gt;&lt;/a&gt; from August to December 2023, I had the opportunity to contribute to a highly technical project focused on power system analysis, specifically examining the impact of large-scale renewable energy integration on system inertia and frequency. This experience greatly enhanced my algorithm development, simulation, and technical communication skills. It provided a deeper understanding of the intersection between AI and energy systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Co-op: Energy consumption mode mining and exception identification</title>
+      <link>https://KyliinX.github.io/post/2023-01-01-coop1/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2023-01-01-coop1/</guid>
+      <description>&lt;p&gt;During my first co-op at &lt;strong&gt;Chongqing University Electrical Engineering Lab&lt;/strong&gt; from Janurary 2023 to April 2023, I had the opportunity to work on an exciting project involving energy consumption mode mining and exception identification of power users. My advisor is Professor &lt;a href=&#34;https://cee.cqu.edu.cn/szdw/jslb/y__j.htm&#34;&gt;Juan Yu&lt;/a&gt;. This experience gave me invaluable skills and insights that shaped my approach to machine learning and research. Here&amp;rsquo;s a detailed look at what I learned and accomplished during this co-op:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project: Identifying and Predicting Meteorologically Sensitive Loads</title>
+      <link>https://KyliinX.github.io/post/2022-05-01-srtp/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2022-05-01-srtp/</guid>
+      <description>&lt;p&gt;From March 2021 to November 2023, I had the privilege of being a member of the Electrical Engineering Lab at Chongqing University, where I worked on a research project advised by Professor &lt;a href=&#34;http://www.cs.cqu.edu.cn/info/1322/4181.htm&#34;&gt;Duo Liu&lt;/a&gt; aimed at identifying and predicting meteorologically sensitive loads in power supply station areas. This project involved the development of advanced machine learning models to analyze municipal grid power load data and forecast both long- and short-term power load curves. The experience significantly deepened my understanding of power systems. It reinforced my skills in applying machine learning to real-world energy problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activity: Intelligent Vehicles Design and Lecture Practices</title>
+      <link>https://KyliinX.github.io/post/2021-10-01-smart-car/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/post/2021-10-01-smart-car/</guid>
+      <description>&lt;p&gt;From October 2021 to July 2022, I served as a cadre at the Association of Intelligent Vehicles and Opto-electronic Information at Chongqing University. During my time with the association, I had the opportunity to contribute to developing intelligent vehicle technologies, enhance my technical skills in microcontroller programming, and collaborate with fellow members on exciting projects related to trajectory cars. This experience enriched my understanding of the technical and organizational aspects of working in a student-led technical association.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>https://KyliinX.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>xuql@mail.uc.edu</author>
+      <guid>https://KyliinX.github.io/page/about/</guid>
+      <description>&lt;p&gt;Hi there! I&amp;rsquo;m &lt;strong&gt;Qilin Xu (许琪林)&lt;/strong&gt;, a senior pursuing my degree in Electrical Engineering at Chongqing University and the University of Cincinnati Joint Co-op Institute. As I embark on my final year, I am grateful for the incredible opportunities I&amp;rsquo;ve encountered, including achieving a GPA of 3.94/4.0 and being honored with a &lt;strong&gt;National Scholarship&lt;/strong&gt;! ✨&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;Currently, I&amp;rsquo;m thrilled to serve as a Research Assistant at the &lt;strong&gt;MARS Lab&lt;/strong&gt; at Wuhan University, where I delve into the fascinating world of &lt;strong&gt;multimodal machine learning&lt;/strong&gt;. My research focuses on harmonizing diverse data sources, like images and text, to significantly enhance how machines understand and interact with our world. This enriching role has deepened my knowledge of machine learning algorithms and polished my research skills. 🤖&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;My co-op experiences have been instrumental in shaping my approach to &lt;strong&gt;AI research&lt;/strong&gt;. At Chongqing University, I was excited to lead a team analyzing energy consumption through self-supervised learning techniques. This experience honed my analytical and communication skills—critical elements for fruitful collaboration in research! ⚡&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;At the Tsinghua Sichuan Energy Internet Research Institute, I explored the impact of renewable energy on power grid frequency responses by applying &lt;strong&gt;Graph Neural Networks (GNNs)&lt;/strong&gt;. This hands-on experience sharpened my problem-solving skills and logical thinking, essential for tackling the complex challenges in AI. ⚙️&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;These experiences have ignited my passion for furthering AI research and innovation. I am excited to apply for &lt;strong&gt;a Ph.D. in Electrical Engineering and Computer Science (EECS)&lt;/strong&gt;, with the aspiration of developing cutting-edge AI methodologies and exploring their transformative real-world applications. The chance to contribute to the thriving field of machine learning, particularly in &lt;strong&gt;multimodal machine learning&lt;/strong&gt;, truly excites me! 💡&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;I am eager to &lt;strong&gt;collaborate&lt;/strong&gt; with fellow researchers in &lt;strong&gt;machine learning and multimodal AI&lt;/strong&gt;, as collective insights often lead to the most impactful and innovative solutions. I am committed to learning and making meaningful contributions to this dynamic field. &lt;em&gt;&lt;strong&gt;Let&amp;rsquo;s work together to push the boundaries of the way machines understand and interact with the world!&lt;/strong&gt;&lt;/em&gt; 🌏&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
